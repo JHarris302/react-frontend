@@ -24,6 +24,8 @@ class App extends React.Component{
               Welcome {this.state.user.username}
             </header>
             <Route path="/register" component={Register} user={this.state.user}/>
+            <Route path="/login" component={Register} user={this.state.user}/>
+            <Route path="/home" component={Register} user={this.state.user}/>
           </div>
           
           </BrowserRouter>
